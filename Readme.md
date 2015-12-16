@@ -14,7 +14,8 @@ use the ev3 color sensor
 
 ```js
 var ColorSensor = require('ev3-js-color-sensor')
-
+ColorSensor(1).reflected // => 88
+ColorSensor(1).color // => 7
 ```
 
 ## API
@@ -26,12 +27,12 @@ var ColorSensor = require('ev3-js-color-sensor')
 **Returns:** instance of ColorSensor
 
 ### .reflected
-Sets the sensor to reflected light intensity mode and gets a value.
+Gets the value of the reflected light intensity.
 
 **Returns:** number between 0 and 100
 
 ### .color
-Sets the sensor to color mode and gets a value.
+Gets the value of the color.
 
 **Returns:** color value between 0 and 7
 
