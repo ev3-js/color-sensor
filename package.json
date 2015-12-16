@@ -2,7 +2,7 @@
   "name": "ev3-js-color-sensor",
   "description": "use the ev3 color sensor",
   "repository": "git://github.com/ev3-js/color-sensor.git",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
