@@ -13,17 +13,38 @@ use the ev3 color sensor
 ## Usage
 
 ```js
-var colorSensor = require('ev3-js-color-sensor')
+var ColorSensor = require('ev3-js-color-sensor')
 
 ```
 
 ## API
 
-### colorSensor(arg)
+### ColorSensor(port)
 
-- `arg` -
+- `port` - number of the port that the color sensor is plugged in to.
 
-**Returns:**
+**Returns:** instance of ColorSensor
+
+### .reflected
+Sets the sensor to reflected light intensity mode and gets a value.
+
+**Returns:** number between 0 and 100
+
+### .color
+Sets the sensor to color mode and gets a value.
+
+**Returns:** color value between 0 and 7
+
+number | color
+---|---
+0 | no color
+1 | black
+2 | blue
+3 | green
+4 | yellow
+5 | red
+6 | white
+7 | brown
 
 ## License
 
