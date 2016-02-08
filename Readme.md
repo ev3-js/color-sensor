@@ -8,7 +8,7 @@ use the ev3 color sensor
 
 ## Installation
 
-    $ npm install ev3-js-color-sensor
+    $ npm install color-sensor
 
 ## Usage
 
